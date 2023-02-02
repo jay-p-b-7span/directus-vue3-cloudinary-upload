@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "export $(cat .env | xargs) && env && directus-extension build",
+    "build": "directus-extension build",
     "dev": "export $(cat .env | xargs) && env && directus-extension build --no-minify --watch"
   },
   "directus:extension": {
